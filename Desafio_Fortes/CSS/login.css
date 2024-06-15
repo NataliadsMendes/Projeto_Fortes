@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+/* Página de login */
+
+#loginleft{
+    display: flex;
+    flex-direction: column;
+    background-color: #7597BF;
+    color: #ffffff;
+    width: 50%;
+    padding-top: 91px;
+    padding-left: 63px;
+    padding-right: 63px;
+    padding-bottom: 40px;
+}
+
+
+#loginright{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    color: #16161D;
+    
+}
+
+
+/* Parte esquerda */
+
+#entrar{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+#entrar > h1{
+    display: flex;
+    font-size: 81px;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+    margin-bottom: 0;
+    margin-top: 0;
+}
+#entrar > p{
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 29px;
+}
+
+#cadastre{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+}
+#cadastre > p{
+    display: flex;
+    font-size: 29px;
+    margin-bottom: 0;
+}
+#cadastre > button{
+    display: flex;
+    justify-content: flex-start;
+    background-color: #7597BF;
+    border: 0;
+    color: #ffffff;
+    margin-top: 0;
+    font-size: 29px;
+    font-weight: bold;
+}
+
+
+/* Parte direita */
+
+#titulo{
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+}
+#titulo > h2{
+    font-size: 71px;
+}
+
+#info{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+#email{
+    display: flex;
+}
+
+.usuario{
+    display: flex;
+    margin-top: 0;
+    flex-direction: column;
+}
+
+.dados{
+    display: flex;
+    font-size: 32px;
+    flex-direction: column;
+}
+
+#entema{
+    display: flex;
+    width: 400px;
+    height: 25px;
+}
+
+#pswse{
+    display: flex;
+    width: 400px;
+    height: 25px;
+}
+
+#final{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    align-items: flex-end;
+}
+
+#botao{
+    display: flex;
+    align-self: center;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+#botao > button{
+    display: flex;
+    background-color: #7597BF;
+    border: 0;
+    color: #ffffff;
+    padding: 2%;
+    border-radius: 5%;
+    width: 19%;
+    font-size: 30px;
+    text-align: center;
+    width: 200px;
+    text-align: center;
+    justify-content: center;
+}
+
+#esqueceu{
+    display: flex;
+    justify-content: end;
+    border: 0;
+    color: #ffffff;
+    margin-top: 0;
+    font-size: 25px;
+}
+#esqueceu > button{
+    display: flex;
+    border: 0;
+    font-size: 25px;
+    background-color: #ffffff;
+}

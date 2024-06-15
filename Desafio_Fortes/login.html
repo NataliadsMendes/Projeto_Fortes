@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="16x16" href="Imagens/logo_fortificar_com.png">
+    <link rel="stylesheet" href="CSS/login.css">
+    <title>Login</title>
+
+</head>
+<body>
+
+    <header>
+        <img src="Imagens/logo_fortes.png" alt="Logo da empresa Fortes">
+    </header>
+
+    <main>
+        <section id="loginleft">
+            <article id="entrar">
+                <h1> É bom te ver </h1>
+                <h1> de volta! </h1>
+                    <p> Digite seus dados de login para </p>
+                    <p>acessar sua conta. </p>
+            </article>
+    <br>
+    <br>
+    <br>
+    <br>
+            <article id="cadastre">
+                    <p> Ainda não possui uma conta? </p>
+                <button onclick="cadastrar()"> Cadastre-se </button>
+            </article>
+        </section>
+        <section id="loginright">
+            <article id="titulo">
+                <h2> Login </h2>
+            </article>
+            <div id="info">
+                <article class="usario">
+                    <span class="dados"> Email </span>
+                        <input id="entema" type="text" placeholder="Insira seu email">
+                </article>
+    <br>
+    <br>
+                <article class="usario">
+                    <span class="dados"> Senha </span>
+                        <input id="pswse" type="password" placeholder="Insira sua senha">
+                </article>
+            </div>
+    <br>
+    <br>
+    <br>
+            <div id="final">
+                <article id="botao">
+                    <button onclick="logar()"> Entrar </button>
+                </article>
+    <br>
+    <br>
+                <aside id="esqueceu">
+                    <button onclick="esquecer()"> Esqueceu a senha? </button>
+                </aside>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <img src="Imagens/logo_fortificar_circulo.png" alt="Logo do projeto social Fortificar">
+    </footer>
+    
+    <script src="login.js"> </script>
+</body>
+</html>

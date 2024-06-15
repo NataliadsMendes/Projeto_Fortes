@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+/* Fontes externas */
+/* Tipografia */
+.m-plus-rounded-1c-regular {
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+} 
+
+/* Icones */
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+
+/* Padrão de todas as páginas */
+
+header{
+    display: flex;
+    background-color: #094293;
+    max-height: 100px;
+    align-items: center;
+}
+header > img{
+    display: flex;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-left: 1%;
+    max-height: 80px;
+    width: auto;
+    
+}
+
+body{
+    font-family: "M PLUS Rounded 1c", sans-serif;
+ } 
+
+ main{
+    display: flex;
+    align-items: stretch;
+ }
+
+ footer{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #094293;
+    max-height: 100px;
+ }
+ footer > img{
+    display: flex;
+    max-height: 60px;
+    width: auto;
+    padding: 2%;
+ }
